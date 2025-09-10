@@ -41,6 +41,7 @@ The project is organized into modular components to maximize reuse and consisten
 
 ## Assumptions and Features
  
+- **SwiftUI** was chosen for this project as it is being built from the ground up, while still allowing seamless integration with UIKit when needed.
 - **MVVM chosen over TCA**: lightweight, no external dependencies, still modular and testable.  
 - **Codable** for parsing: native, simple, covers current use cases.  
 - **SwiftLint** configured locally (not blocking builds).  
