@@ -3,8 +3,8 @@
 ## Setup
 
 1. Clone the repository.  
-2. Open `NSHealth.xcodeproj` in Xcode 16.4.  
-3. Build & run on an iOS 18.5 simulator or device.  
+2. Open `NSHealthTakeHome.xcodeproj` in Xcode 16.4.  
+3. Build & run on an iOS 18.5 simulator.  
 
 ---
 ## Specifications
@@ -110,28 +110,28 @@ The project is organized into modular components to maximize reuse and consisten
 ## Screens / Demos
 
 - **App Screens**
-![Screen1](NSHealthTakeHome/Doc/Screenshots/Regular/1 NS Health.png)
-![Screen2](NSHealthTakeHome/Doc/Screenshots/Regular/2 NS Health.png)
-![Screen3](NSHealthTakeHome/Doc/Screenshots/Regular/3 NS Health.png)
-![Screen4](NSHealthTakeHome/Doc/Screenshots/Regular/4 NS Health.png)
-![Glass1](NSHealthTakeHome/Doc/Screenshots/LiquidGlass/1 Liquid Glass.png)
-![Glass2](NSHealthTakeHome/Doc/Screenshots/LiquidGlass/2 Liquid Glass.png)
-![Glass3](NSHealthTakeHome/Doc/Screenshots/LiquidGlass/3 Liquid Glass.png)
-![Glass4](NSHealthTakeHome/Doc/Screenshots/LiquidGlass/4 Liquid Glass.png)
+![Screen1](NSHealthTakeHome/Doc/Screenshots/Regular/1NSHealth.png)
+![Screen2](NSHealthTakeHome/Doc/Screenshots/Regular/2NSHealth.png)
+![Screen3](NSHealthTakeHome/Doc/Screenshots/Regular/3NSHealth.png)
+![Screen4](NSHealthTakeHome/Doc/Screenshots/Regular/4NSHealth.png)
+![Glass1](NSHealthTakeHome/Doc/Screenshots/LiquidGlass/1LiquidGlass.png)
+![Glass2](NSHealthTakeHome/Doc/Screenshots/LiquidGlass/2LiquidGlass.png)
+![Glass3](NSHealthTakeHome/Doc/Screenshots/LiquidGlass/3LiquidGlass.png)
+![Glass4](NSHealthTakeHome/Doc/Screenshots/LiquidGlass/4LiquidGlass.png)
 
 - **App Navigation** 
 ![Normal](NSHealthTakeHome/Doc/Screenshots/gifs/Normal.gif)
 
 - **App Navigation with Loading State**  
-![NormalWithLoading](NSHealthTakeHome/Doc/Screenshots/gifs/Normal with Loading.gif)
+![NormalWithLoading](NSHealthTakeHome/Doc/Screenshots/gifs/NormalWithLoading.gif)
 
 - **Dark Mode**  
-![Dark Mode](NSHealthTakeHome/Doc/Screenshots/gifs/Dark Mode.gif)
+![Dark Mode](NSHealthTakeHome/Doc/Screenshots/gifs/DarkMode.gif)
 
 - **Accessiblity**  
 ![Accessibility](NSHealthTakeHome/Doc/Screenshots/gifs/Accessibility.gif)
 
 - **Liquid Glass**  
-![Liquid Glass](NSHealthTakeHome/Doc/Screenshots/gifs/Liquid Glass.gif)
+![Liquid Glass](NSHealthTakeHome/Doc/Screenshots/gifs/LiquidGlass.gif)
 
 ---
