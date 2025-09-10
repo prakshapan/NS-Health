@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0901CD0C2E707262004B5B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0901CCF62E707260004B5B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0901CCFD2E707260004B5B8F;
+			remoteInfo = NSHealthTakeHome;
+		};
+		0901CD162E707262004B5B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0901CCF62E707260004B5B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0901CCFD2E707260004B5B8F;
+			remoteInfo = NSHealthTakeHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0901CCFE2E707260004B5B8F /* NSHealthTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSHealthTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0901CD0B2E707262004B5B8F /* NSHealthTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSHealthTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0901CD152E707262004B5B8F /* NSHealthTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSHealthTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0901CD692E707406004B5B8F /* Exceptions for "NSHealthTakeHome" folder in "NSHealthTakeHome" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0901CCFD2E707260004B5B8F /* NSHealthTakeHome */;
+		};
+		096A46B02E708CD200FD4DFD /* Exceptions for "NSHealthTakeHomeTests" folder in "NSHealthTakeHome" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LabAndDiagnostics/LabAndDiagnosticsViewModelTests.swift,
+				LabAndDiagnostics/LabDiagnosticsRepositorylTests.swift,
+				LabAndDiagnostics/MockLabAndDiagnosticsRepository.swift,
+				NavigationModelTest.swift,
+				NetworkManagerTest/MockNetworkService.swift,
+				NetworkManagerTest/MockURLSession.swift,
+				NetworkManagerTest/NetworkManagerTest.swift,
+				NSHealthTakeHomeTests.swift,
+			);
+			target = 0901CCFD2E707260004B5B8F /* NSHealthTakeHome */;
+		};
+		096A46B12E708CD200FD4DFD /* Exceptions for "NSHealthTakeHomeTests" folder in "NSHealthTakeHomeTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LabAndDiagnostics/LabAndDiagnosticsViewModelTests.swift,
+				LabAndDiagnostics/LabDiagnosticsRepositorylTests.swift,
+				LabAndDiagnostics/MockLabAndDiagnosticsRepository.swift,
+				NavigationModelTest.swift,
+				NetworkManagerTest/MockNetworkService.swift,
+				NetworkManagerTest/MockURLSession.swift,
+				NetworkManagerTest/NetworkManagerTest.swift,
+				NSHealthTakeHomeTests.swift,
+			);
+			target = 0901CD0A2E707262004B5B8F /* NSHealthTakeHomeTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0901CD002E707260004B5B8F /* NSHealthTakeHome */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0901CD692E707406004B5B8F /* Exceptions for "NSHealthTakeHome" folder in "NSHealthTakeHome" target */,
+			);
+			path = NSHealthTakeHome;
+			sourceTree = "<group>";
+		};
+		0901CD182E707262004B5B8F /* NSHealthTakeHomeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NSHealthTakeHomeUITests;
+			sourceTree = "<group>";
+		};
+		096A46AB2E708CD200FD4DFD /* NSHealthTakeHomeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				096A46B02E708CD200FD4DFD /* Exceptions for "NSHealthTakeHomeTests" folder in "NSHealthTakeHome" target */,
+				096A46B12E708CD200FD4DFD /* Exceptions for "NSHealthTakeHomeTests" folder in "NSHealthTakeHomeTests" target */,
+			);
+			path = NSHealthTakeHomeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0901CCFB2E707260004B5B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0901CD082E707262004B5B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0901CD122E707262004B5B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0901CCF52E707260004B5B8F = {
+			isa = PBXGroup;
+			children = (
+				0901CD002E707260004B5B8F /* NSHealthTakeHome */,
+				096A46AB2E708CD200FD4DFD /* NSHealthTakeHomeTests */,
+				0901CD182E707262004B5B8F /* NSHealthTakeHomeUITests */,
+				0901CCFF2E707260004B5B8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0901CCFF2E707260004B5B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0901CCFE2E707260004B5B8F /* NSHealthTakeHome.app */,
+				0901CD0B2E707262004B5B8F /* NSHealthTakeHomeTests.xctest */,
+				0901CD152E707262004B5B8F /* NSHealthTakeHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0901CCFD2E707260004B5B8F /* NSHealthTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0901CD1F2E707262004B5B8F /* Build configuration list for PBXNativeTarget "NSHealthTakeHome" */;
+			buildPhases = (
+				0901CCFA2E707260004B5B8F /* Sources */,
+				0901CCFB2E707260004B5B8F /* Frameworks */,
+				0901CCFC2E707260004B5B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0901CD002E707260004B5B8F /* NSHealthTakeHome */,
+				096A46AB2E708CD200FD4DFD /* NSHealthTakeHomeTests */,
+			);
+			name = NSHealthTakeHome;
+			packageProductDependencies = (
+			);
+			productName = NSHealthTakeHome;
+			productReference = 0901CCFE2E707260004B5B8F /* NSHealthTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0901CD0A2E707262004B5B8F /* NSHealthTakeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0901CD222E707262004B5B8F /* Build configuration list for PBXNativeTarget "NSHealthTakeHomeTests" */;
+			buildPhases = (
+				0901CD072E707262004B5B8F /* Sources */,
+				0901CD082E707262004B5B8F /* Frameworks */,
+				0901CD092E707262004B5B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0901CD0D2E707262004B5B8F /* PBXTargetDependency */,
+			);
+			name = NSHealthTakeHomeTests;
+			packageProductDependencies = (
+			);
+			productName = NSHealthTakeHomeTests;
+			productReference = 0901CD0B2E707262004B5B8F /* NSHealthTakeHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0901CD142E707262004B5B8F /* NSHealthTakeHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0901CD252E707262004B5B8F /* Build configuration list for PBXNativeTarget "NSHealthTakeHomeUITests" */;
+			buildPhases = (
+				0901CD112E707262004B5B8F /* Sources */,
+				0901CD122E707262004B5B8F /* Frameworks */,
+				0901CD132E707262004B5B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0901CD172E707262004B5B8F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0901CD182E707262004B5B8F /* NSHealthTakeHomeUITests */,
+			);
+			name = NSHealthTakeHomeUITests;
+			packageProductDependencies = (
+			);
+			productName = NSHealthTakeHomeUITests;
+			productReference = 0901CD152E707262004B5B8F /* NSHealthTakeHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0901CCF62E707260004B5B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					0901CCFD2E707260004B5B8F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					0901CD0A2E707262004B5B8F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0901CCFD2E707260004B5B8F;
+					};
+					0901CD142E707262004B5B8F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0901CCFD2E707260004B5B8F;
+					};
+				};
+			};
+			buildConfigurationList = 0901CCF92E707260004B5B8F /* Build configuration list for PBXProject "NSHealthTakeHome" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0901CCF52E707260004B5B8F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0901CCFF2E707260004B5B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0901CCFD2E707260004B5B8F /* NSHealthTakeHome */,
+				0901CD0A2E707262004B5B8F /* NSHealthTakeHomeTests */,
+				0901CD142E707262004B5B8F /* NSHealthTakeHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0901CCFC2E707260004B5B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0901CD092E707262004B5B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0901CD132E707262004B5B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0901CCFA2E707260004B5B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0901CD072E707262004B5B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0901CD112E707262004B5B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0901CD0D2E707262004B5B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0901CCFD2E707260004B5B8F /* NSHealthTakeHome */;
+			targetProxy = 0901CD0C2E707262004B5B8F /* PBXContainerItemProxy */;
+		};
+		0901CD172E707262004B5B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0901CCFD2E707260004B5B8F /* NSHealthTakeHome */;
+			targetProxy = 0901CD162E707262004B5B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0901CD1D2E707262004B5B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0901CD1E2E707262004B5B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0901CD202E707262004B5B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NSHealthTakeHome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nshealth.NSHealthTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0901CD212E707262004B5B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NSHealthTakeHome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nshealth.NSHealthTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0901CD232E707262004B5B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nshealth.NSHealthTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSHealthTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NSHealthTakeHome";
+			};
+			name = Debug;
+		};
+		0901CD242E707262004B5B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nshealth.NSHealthTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSHealthTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NSHealthTakeHome";
+			};
+			name = Release;
+		};
+		0901CD262E707262004B5B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nshealth.NSHealthTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NSHealthTakeHome;
+			};
+			name = Debug;
+		};
+		0901CD272E707262004B5B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nshealth.NSHealthTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NSHealthTakeHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0901CCF92E707260004B5B8F /* Build configuration list for PBXProject "NSHealthTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0901CD1D2E707262004B5B8F /* Debug */,
+				0901CD1E2E707262004B5B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0901CD1F2E707262004B5B8F /* Build configuration list for PBXNativeTarget "NSHealthTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0901CD202E707262004B5B8F /* Debug */,
+				0901CD212E707262004B5B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0901CD222E707262004B5B8F /* Build configuration list for PBXNativeTarget "NSHealthTakeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0901CD232E707262004B5B8F /* Debug */,
+				0901CD242E707262004B5B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0901CD252E707262004B5B8F /* Build configuration list for PBXNativeTarget "NSHealthTakeHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0901CD262E707262004B5B8F /* Debug */,
+				0901CD272E707262004B5B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0901CCF62E707260004B5B8F /* Project object */;
+}
